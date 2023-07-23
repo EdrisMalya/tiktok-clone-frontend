@@ -13,7 +13,6 @@
                     <Icon name="mdi:close" size="26"/>
                 </button>
             </div>
-
             <Login v-if='isRegister' />
             <Register v-else />
 
@@ -32,7 +31,7 @@
     </div>
 </template>
 <script setup>
-
+    const { $generalStore } = useNuxtApp()
     let isRegister = ref(true)
 
 </script>

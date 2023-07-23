@@ -83,4 +83,5 @@
 </template>
 <script setup>
     import MainLayout from '~/layouts/MainLayout.vue'
+    const {$generalStore} = useNuxtApp()
 </script>
